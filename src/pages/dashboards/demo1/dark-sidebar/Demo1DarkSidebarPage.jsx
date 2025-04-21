@@ -13,6 +13,7 @@ const Demo1DarkSidebarPage = () => {
     to: addDays(new Date(2025, 0, 20), 20)
   });
   return <Fragment>
+
       <Container>
         <Toolbar>
           <ToolbarHeading title="Dashboard" description="Central Hub for Personal Customization" />

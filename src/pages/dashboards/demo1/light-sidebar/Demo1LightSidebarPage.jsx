@@ -7,6 +7,7 @@ import { Calendar } from '@/components/ui/calendar';
 import { addDays, format } from 'date-fns';
 import { cn } from '@/lib/utils';
 import { KeenIcon } from '@/components/keenicons';
+
 const Demo1LightSidebarPage = () => {
   const [date, setDate] = useState({
     from: new Date(2025, 0, 20),
